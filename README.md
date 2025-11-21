@@ -89,47 +89,39 @@ Ratings (id, user_id, store_id, rating, created_at)
       npm run dev
 
 
-Frontend Setup
-cd frontend
-npm install
-npm start
+### Frontend Setup
+      cd frontend
+      npm install
+      npm start
 
-Database Setup
-CREATE DATABASE ratings_app;
-# Run the schema from database/schema.sql
+### Database Setup
+      CREATE DATABASE ratings_app;
+      # Run the schema from database/schema.sql
 
-🔐 Default Admin Login
-Email: admin@storeapp.com
-Password: password
+### 🔐 Default Admin Login
+      Email: admin@storeapp.com
+      Password: password
 
+## 🎯 API Endpoints
+### Authentication
+      POST /api/register - User registration
+      POST /api/login - User login
+      GET /api/profile - Get user profile
+      PUT /api/update-password - Update password
 
+### Stores
+      GET /api/stores - Get all stores
+      GET /api/stores-with-ratings - Get stores with user ratings
+      POST /api/stores/:id/rate - Submit rating
 
-🎯 API Endpoints
-Authentication
-POST /api/register - User registration
-
-POST /api/login - User login
-
-GET /api/profile - Get user profile
-
-PUT /api/update-password - Update password
-
-Stores
-GET /api/stores - Get all stores
-
-GET /api/stores-with-ratings - Get stores with user ratings
-
-POST /api/stores/:id/rate - Submit rating
-
-Admin
-GET /api/admin/stats - Platform statistics
-
-POST /api/admin/users - Create users
-
-POST /api/admin/stores - Create stores
+### Admin
+      GET /api/admin/stats - Platform statistics
+      POST /api/admin/users - Create users
+      POST /api/admin/stores - Create stores
 
 
-🏗️ Project Structure
+### 🏗️ Project Structure
+```
 store-rating-app/
 ├── backend/
 │   ├── config/          # Database configuration
@@ -147,50 +139,30 @@ store-rating-app/
 │   │   └── styles/      # CSS files
 │   └── public/         # Static files
 └── README.md
+```
 
+### 🔒 Security Features
+   - JWT-based authentication
+   - Password hashing with bcrypt
+   - Role-based access control
+   - Input validation and sanitization
+   - CORS configuration
+   - SQL injection prevention
 
-🔒 Security Features
-JWT-based authentication
+### 📱 Responsive Design
+   - Mobile-first approach
+   - Cross-browser compatible
+   - Accessible UI components
+   - Loading states and error handling
 
-Password hashing with bcrypt
+### 🧪 Testing
+   The application includes:
+     - Form validation testing
+     - API endpoint testing
+     - Role-based access testing
+     - Database operation testing
 
-Role-based access control
-
-Input validation and sanitization
-
-CORS configuration
-
-SQL injection prevention
-
-📱 Responsive Design
-Mobile-first approach
-
-Cross-browser compatible
-
-Accessible UI components
-
-Loading states and error handling
-
-🧪 Testing
-The application includes:
-
-Form validation testing
-
-API endpoint testing
-
-Role-based access testing
-
-Database operation testing
-
-🤝 Contributing
-Fork the repository
-
-Create a feature branch
-
-Commit your changes
-
-Push to the branch
-
-Create a Pull Request
+### 👨‍💻 Developer
+Developed as a full-stack intern coding challenge demonstrating modern web development practices.
 
 
