@@ -57,14 +57,6 @@ A full-stack web application that allows users to rate stores, with role-based a
 ![Login Page] <img width="1602" height="810" alt="image" src="https://github.com/user-attachments/assets/0ca34a46-5664-40ae-90c2-e1d000848a96" />
 *Secure login with role-based redirection*
 
-### User Store Rating Page
-![User Store Rating] 
-*Browse, search, and rate stores with real-time updates*
-
-### Password Update Page
-![Password Update] 
-*Secure password update with validation*
-
 ### Admin Dashboard
 ![Admin Dashboard] <img width="1918" height="792" alt="image" src="https://github.com/user-attachments/assets/1ce2ccdb-c0d4-4678-a5b1-38c67066db85" />
 *Platform overview with statistics and quick actions*
