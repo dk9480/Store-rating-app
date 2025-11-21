@@ -86,7 +86,7 @@ Ratings (id, user_id, store_id, rating, created_at)
     npm install
     cp .env.example .env
     # Configure your database in .env file
-      npm run dev
+    npm run dev
 
 
 ### Frontend Setup
@@ -157,10 +157,10 @@ store-rating-app/
 
 ### 🧪 Testing
    The application includes:
-     - Form validation testing
-     - API endpoint testing
-     - Role-based access testing
-     - Database operation testing
+   - Form validation testing
+   - API endpoint testing
+   - Role-based access testing
+   - Database operation testing
 
 ### 👨‍💻 Developer
 Developed as a full-stack intern coding challenge demonstrating modern web development practices.
