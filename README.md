@@ -73,7 +73,7 @@ A full-stack web application that allows users to rate stores, with role-based a
 Users (id, name, email, password, address, role)
 Stores (id, name, email, address, owner_id)
 Ratings (id, user_id, store_id, rating, created_at)
-
+```
 
 🚀 Installation & Setup
 Prerequisites
