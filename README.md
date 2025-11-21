@@ -47,33 +47,30 @@ A full-stack web application that allows users to rate stores, with role-based a
 
 ## 📸 Application Screenshots
 
-### Register Page
-![Login Page] <img width="1709" height="908" alt="image" src="https://github.com/user-attachments/assets/c1d6abe4-cb0b-48b5-81e6-04ce82523f01" />
+## 📸 Application Screenshots
 
-*Secure login with role-based redirection*
+### Register Page
+![Register Page] <img width="1709" height="908" alt="image" src="https://github.com/user-attachments/assets/c1d6abe4-cb0b-48b5-81e6-04ce82523f01" />
+*User registration with form validation*
 
 ### Login Page
-![Login Page]<img width="1602" height="810" alt="image" src="https://github.com/user-attachments/assets/0ca34a46-5664-40ae-90c2-e1d000848a96" />
+![Login Page] <img width="1602" height="810" alt="image" src="https://github.com/user-attachments/assets/0ca34a46-5664-40ae-90c2-e1d000848a96" />
 *Secure login with role-based redirection*
 
 ### Admin Dashboard
 ![Admin Dashboard] <img width="1918" height="792" alt="image" src="https://github.com/user-attachments/assets/1ce2ccdb-c0d4-4678-a5b1-38c67066db85" />
-
 *Platform overview with statistics and quick actions*
 
 ### Store Management
 ![Store Management] <img width="1845" height="907" alt="image" src="https://github.com/user-attachments/assets/b76f1cdd-6bfd-4159-971f-17da3ea08fc6" />
-
 *Browse, search, and rate stores with real-time updates*
 
 ### Store Owner Dashboard
 ![Store Owner Dashboard] <img width="1919" height="917" alt="image" src="https://github.com/user-attachments/assets/b3792421-21ab-4888-aa29-69a35dc7ea8d" />
-
 *Monitor ratings and customer feedback*
 
 ### User Management
 ![User Management] <img width="1919" height="913" alt="image" src="https://github.com/user-attachments/assets/128e8471-3cba-4c12-adda-2502dfc8d3e5" />
-
 *Admin panel for user management and role assignment*
 
 ## 🗄️ Database Schema
