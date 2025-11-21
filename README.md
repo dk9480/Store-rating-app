@@ -48,7 +48,8 @@ A full-stack web application that allows users to rate stores, with role-based a
 ## 📸 Application Screenshots
 
 ### Login Page
-![Login Page](screenshots/login.png)
+![Login Page](<img width="1602" height="810" alt="image" src="https://github.com/user-attachments/assets/0ca34a46-5664-40ae-90c2-e1d000848a96" />
+)
 *Secure login with role-based redirection*
 
 ### Admin Dashboard
