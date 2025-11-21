@@ -75,20 +75,18 @@ Stores (id, name, email, address, owner_id)
 Ratings (id, user_id, store_id, rating, created_at)
 ```
 
-🚀 Installation & Setup
-Prerequisites
-Node.js (v14 or higher)
+## 🚀 Installation & Setup
+   - Prerequisites
+   - Node.js (v14 or higher)
+   - MySQL Server
+   - npm 
 
-MySQL Server
-
-npm or yarn
-
-Backend Setup
-cd backend
-npm install
-cp .env.example .env
-# Configure your database in .env file
-npm run dev
+### Backend Setup 
+    cd backend
+    npm install
+    cp .env.example .env
+    # Configure your database in .env file
+      npm run dev
 
 
 Frontend Setup
